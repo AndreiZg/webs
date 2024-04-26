@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;;
+}
+
+.home{
+    height: 100vh;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+.container{
+    height: 580px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: var(--second-color);
+    width: 90vw;
+    border-radius: 50px;
+}
+
+.welcome{
+    font-size: 3em;
+    color: var(--light-violet);
+    letter-spacing: -3px;
+    font-family: var(--main-font);
+    position: relative;
+    font-weight: bold;
+}
+
+.main-title{
+    width: 800px;
+}
+
+.container p {
+    color: white;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.welcome-text{
+    color: var(--light-blue);
+    position: relative;
+    right: 10px;
+}
+
+.bottom-text{
+    text-transform: uppercase;
+    font-family: var(--second-font);
+}
+
+.to-right{
+    position: relative;
+    left: 14px;
+}
+
+.main-button , .second-button{
+    margin: 10px;
+    width: 185px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-size: 16px;
+    height: 60px;
+}
+
+.main-button{
+    background-color: var(--second-color);
+    border: none;
+    color: white;
+    box-shadow: 0 0 3px white,
+                0 0 5px #BB9BFF0D;
+}
+
+.second-button{
+    background-color:var(--light-blue);
+    border: 2px solid black;
+}
+
+.buttons{
+    display: flex;
+}
+
+.bottom-text{
+    color: var(--light-blue);
+}
+
+.bottom-text span{
+    color: white;
+}
+

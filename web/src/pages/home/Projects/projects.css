@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.projects{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    position: absolute;
+    height: 80px;
+    top: 20px;
+    left: 30px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: var(--third-font);
+    color: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+}
+
+.title h6{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-family:var(--second-font);
+    font-size: 0.6em;
+    color: white;
+}
+
+h6 span{
+    color: var(--light-blue);
+}
+
+.grid-container{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 500px auto;
+    grid-auto-rows: minmax(450px, auto);
+    grid-gap: 20px;
+    width: 80vw;
+}
+
+.element{
+    position: relative;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.element:nth-child(1){
+    grid-column: 1 / -1;
+}
+
+.project-buttons{
+    width: max-content;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.project-buttons svg{
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    height: 70px;
+    border: none;
+    width: 70px;
+}
+
+.project-item{
+    font-size: 1.6em;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--light-blue);
+    width: 170px;
+    height: 70px;
+}
