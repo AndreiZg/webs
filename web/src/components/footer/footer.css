@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --violet:#A8A6FF;
+    --light-violet:#8E94F2;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.footer{
+    margin-top: 7em;
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--light-blue);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.footer-title{
+    color: black;
+    margin-top: 20px;
+    font-size: 2.6em;
+}
+
+.footer-container{
+    position: relative;
+    background-color: transparent;
+    width: 90vw;
+    height: 70vh;
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.footer-details{
+    display: grid;
+    grid-template-columns: repeat(2,400px);
+    height: max-content;
+}
+
+.footer-item{
+    width: 20vw;
+    height: 100px;
+    background-color: transparent;
+    margin: 5px;
+}
+
+.info,.second-info{
+    font-family: var(--third-font);
+}
+
+.second-info{
+    font-size: 2.3em;
+}
+
+.footer-button,.footer-button button{
+    width: 90%;
+    margin: auto;
+}
+
+.footer-button button{
+    height: 45px;
+    border-radius: 20px;
+    background-color: var(--main-color);
+    border: 1px solid var(--light-violet);
+    color: white;
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+.footer-social__container{
+    width: 30vw;
+    height: max-content;
+    background-color: transparent;
+    position: relative;
+    top: 30vh;
+}
+
+.media-btn button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.media-btn button:nth-child(2){
+    background-color: var(--light-violet);
+}
+
+.media-btn button:nth-child(3){
+    background-color: var(--violet);
+}
+
+.division-line{
+    position: absolute;
+    height: 2px;
+    width: 97%;
+    left: 15px;
+    background-color: var(--light-violet);
+    bottom: 150px;
+}
+
+.rights-container{
+    position: absolute;
+    bottom: 70px;
+    left: 30px;
+    font-family: var(--third-font);
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+}

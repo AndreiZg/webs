@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.contacts{
+    position: relative;
+    height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--light-blue);
+}
+
+.join-team__form{
+    background-color: var(--light-violet);
+    width: 45vw;
+}
+
+.join-team__title{
+    font-size: 3.7em;
+    text-transform: uppercase;
+    font-family: var(--third-font);
+    padding: 20px;
+    margin-top: 10vh;
+}
+
+.contact-info__form{
+    position: relative;
+    width: 90vw;
+    height: 50vh;
+    margin: 0 auto;
+    background-color: transparent;
+}
+
+.contact-info__body{
+    text-transform: lowercase;
+    background-color: transparent;
+    width: 470px;
+    font-family: var(--main-font);
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.second-part{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: transparent;
+    width: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-form,.consultation-button{
+    width: 100%;
+}
+
+.input-form input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid black;
+}
+
+.input-form input::placeholder{
+    color: black;
+}
+
+
+.consultation-button button{
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border: 1px solid black;
+    background-color: var(--light-violet);
+    text-transform: uppercase;
+}
