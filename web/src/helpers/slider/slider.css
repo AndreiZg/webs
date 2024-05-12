@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.swiper-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-wrapper{
+    background:transparent;
+    display: grid;
+    overflow: hidden;
+    width: 520px;
+    grid-template-columns: repeat(10,1fr);
+}
+
+.images-wrapper img{
+    width: 500px;
+    height: 300px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+}

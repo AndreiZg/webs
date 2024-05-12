@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-details{
+    overflow: hidden;
+    position: relative;
+    height: 150vh;
+}
+
+.details-wrapper{
+    background-color: var(--second-color);
+    width: 100vw;
+    height: 350px;
+    position: relative;
+    margin-top: 120px;
+}
+
+.work-details .title{
+    top: 50px;
+    height: 240px;
+}
+
+.work-details .title h6{
+    width: 35%;
+}
+
+.work-details .title h1{
+    width: 50%;
+}
+
+.details-description{
+    margin-top: 70px;
+    width: 100vw;
+    height: 500px;
+    background-color: var(--second-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-container{
+    height: 280px;
+    width: max-content;
+    background-color: transparent;
+    margin:30px;
+}
+
+.details-title h1{
+    color: var(--light-violet);
+}
+
+.detils-description{
+    width: 70%;
+}
+
+.details-description > *{
+    color: white;
+}
+
+.detils-description ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.details-description li{
+    list-style: disc;
+}
+
+.description-container > *{
+    font-family: var(--third-font);
+}

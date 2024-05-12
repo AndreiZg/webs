@@ -1,27 +1,24 @@
 import './App.css';
-import NavBar from "./components/navbar/navbar";
-import Welcome from "./pages/home/welcome/welcome";
-import Services from "./pages/home/services/services";
-import Projects from "./pages/home/Projects/projects";
-import Blog from "./pages/home/blog/blog";
-import Team from "./pages/home/our-team/team";
-import Contacts from "./components/contacts/contacts";
-import Footer from "./components/footer/footer";
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import HomePage from "./pages/home/home-page/home-page";
+import OurPages from "./pages/site-pages/our-pages/our-pages";
+import OurProjects from "./pages/projects/our-projects/our-projects";
+import Articles from "./pages/articles/articles-page/articles";
+import ViewWork from "./pages/view/view-work/view-work";
 
 function App() {
   return (
-    <>
-        <div className="home-page">
-            <NavBar/>
-            <Welcome/>
-            <Services/>
-            <Projects/>
-            <Blog/>
-            <Team/>
-            <Contacts/>
-            <Footer/>
-        </div>
-    </>
+      <>
+          <BrowserRouter>
+              <Routes>
+                  <Route index element={<HomePage/>}/>
+                  <Route path='/pages' element={<OurPages/>}/>
+                  <Route path='/our-projects' element={<OurProjects/>}/>
+                  <Route path='/articles' element={<Articles/>}/>
+                  <Route path='/view' element={<ViewWork/>}/>
+              </Routes>
+          </BrowserRouter>
+      </>
   );
 }
 

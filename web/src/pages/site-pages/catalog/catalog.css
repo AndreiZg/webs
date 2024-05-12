@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.catalog{
+    overflow-x: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.catalog-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 65vh;
+    background-color: var(--second-color);
+}
+
+.catalog-wrapper{
+    width: 90vw;
+    margin: 0 auto;
+    height: 50vh;
+}
+
+.tabs-items{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.tabs-items li:hover{
+    border-bottom: 1px solid var(--light-violet);
+}
+
+.tabs-items li{
+    font-size: 1em;
+    color: var(--light-violet);
+}
+
+.catalog-items{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-items li{
+    font-size: 1.5em;
+    margin: 0.9em;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-color);
+    cursor: pointer;
+}
+
+.catalog-items li:hover{
+    border-bottom: 1px solid var(--gray-color);
+}
+
+.catalog-list svg{
+    width: 20px;
+    height: 20px;
+}

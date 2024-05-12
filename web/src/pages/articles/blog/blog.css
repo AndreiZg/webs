@@ -17,11 +17,29 @@
 
 .blog{
     position: relative;
-    height: 100vh;
+    height: 170vh;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
-    background-color: var(--second-color);
+    background-color: var(--main-color);
+    overflow-x: hidden;
+}
+
+.articles-path{
+    margin: 20px;
+    font-family: var(--third-font);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.articles-path h5{
+    color: gray;
+}
+
+.articles-path span{
+    color: var(--light-blue);
+    opacity: 1;
 }
 
 .blog .title{
@@ -47,12 +65,54 @@
     color: white;
 }
 
+.articles-title{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    font-family: var(--third-font);
+    color: var(--light-blue);
+    display: flex;
+    justify-content: space-between;
+    width: 94vw;
+}
+
 h6 span{
     color: var(--light-blue);
 }
 
-.blog-container{
+.input-content{
+    width: 100vw;
+}
+
+.input-content > *{
+    border-radius: 20px;
+    padding: 10px;
+    border: transparent;
+    background-color: var(--second-color);
+    margin: 5px;
+    color: var(--light-violet);
+}
+
+.input-content input{
+    width: 30%;
+}
+
+.input-content input::placeholder{
+    color: var(--light-violet);
+}
+
+.input-content select{
+    width: 23%;
+}
+
+.blog-items{
     background-color: transparent;
+    margin-top: 180px;
+}
+
+.blog-container{
     width: 90vw;
     height: 88vh;
     margin-bottom: 10px;
@@ -66,9 +126,11 @@ h6 span{
 .blog-buttons{
     position: relative;
     background-color: transparent;
-    width: 75%;
+    width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
+    margin: 20px;
+    gap: 7px;
 }
 
 .blog-buttons button{
@@ -77,30 +139,29 @@ h6 span{
     background-color: transparent;
     width: 85px;
     border: 1px solid var(--light-violet);
-    color: var(--light-violet);
+    color: gray;
 }
 
 .card-container{
-    width: 75%;
-    height: 100%;
-    background: transparent;
-    display: flex;
-    flex-wrap: wrap;
+    width: 97%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
 }
 
 .card-item,.card-item2{
     background-color: var(--main-color);
-    width: 22vw;
     position: relative;
     border-radius: 20px;
     padding: 10px;
-    height: 42vh;
     margin: auto;
     box-shadow: 0 0 2px var(--light-blue);
 }
 
-.card-item:nth-child(4),.card-item:nth-child(5){
-    width: 33vw;
+.card-item{
+    height: 50vh;
+    background: var(--second-color);
+    margin: 5px;
 }
 
 .profile{
@@ -152,18 +213,19 @@ h6 span{
     top: 6px;
     position: relative;
     width: 100%;
-    height: 143px;
+    height: 183px;
 }
 
 .profile-card__title{
     position: relative;
     width: 90%;
-    height: 50px;
-    font-weight: inherit;
-    font-size: 14px;
+    height: 65px;
+    font-weight: bold;
+    font-size: 18px;
     display: flex;
     align-items: center;
     font-family: var(--third-font);
+    color: var(--light-violet);
 }
 
 .profile-card__description{
@@ -172,10 +234,11 @@ h6 span{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 10px;
+    font-size: 14px;
     position: absolute;
     bottom: 10px;
     font-family: var(--third-font);
+    color: var(--light-blue);
 }
 
 img{
@@ -186,3 +249,4 @@ img{
     background-repeat: no-repeat;
     background-position: center;
 }
+

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-page{
+    background-color: black;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.carousel-page .title h1{
+    font-size: 3.6em;
+}
+
+.carousel-page .title{
+    height: 130px;
+}
+
+.carousel-page .title h6{
+    font-size: 1.3em;
+    color: var(--light-violet);
+}
+
+.carousel-page .title span{
+    color: white;
+}

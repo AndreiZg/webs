@@ -1,10 +1,10 @@
 import './contacts.css';
 
-const Contacts = () =>{
+const Contacts = (props) =>{
     return(
         <div className='contacts'>
             <div className="join-team__form">
-                <h2 className='join-team__title'>Want to join the team?</h2>
+                <h2 className='join-team__title'>{props.title}</h2>
             </div>
             <div className="contact-info__form">
                 <div className="contact-info__body">

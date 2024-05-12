@@ -1,0 +1,17 @@
+.pagination{
+    width: max-content;
+    margin: auto;
+}
+
+.pagination-items__list{
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 5px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    margin-bottom: 40px;
+}

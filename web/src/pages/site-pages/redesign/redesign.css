@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redesign{
+    background-color: var(--light-violet);
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+}
+
+.redesign-container{
+    background-color: transparent;
+    width: 90vw;
+    height: 90vh;
+    display: flex;
+}
+
+.left-side{
+    background-color: transparent;
+    height: 100%;
+    width: 60%;
+}
+
+.right-side{
+    background-color: transparent;
+    height: 100%;
+    width: 40%;
+}
+
+.redesign-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.redesign-left__items{
+    height: 100px;
+    font-size: 2.5em;
+    font-family: var(--third-font);
+    border: transparent;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.right-side{
+    margin-left: 5em;
+}
+
+.redesign-right__items > *{
+    font-family: var(--third-font);
+    margin: 10px;
+}
+
+.redesign-title{
+    font-weight: inherit;
+    font-size: 2em;
+}
+
+.redesign-description{
+    width: 60%;
+}
+
+.redesign-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.redesign-list li{
+    list-style-type: disc;
+    font-size: 1em;
+}
+
+.redesign-btn{
+    border: 2px solid black;
+    background-color: transparent;
+    width: 34%;
+    height: 50px;
+    border-radius: 40px;
+}

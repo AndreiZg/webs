@@ -119,3 +119,7 @@
     display: grid;
     grid-template-columns: repeat(3,200px);
 }
+
+.adress{
+    width: 500px;
+}

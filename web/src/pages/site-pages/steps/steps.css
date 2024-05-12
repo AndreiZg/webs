@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.steps{
+    overflow: hidden;
+    position: relative;
+    height: 185vh;
+}
+
+.title-container{
+    width: 100vw;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-container h1{
+    width: 30vw;
+    font-size: 3.5em;
+    font-family: var(--third-font);
+    color: var(--light-violet);
+    text-transform: uppercase;
+}
+
+.title-container h3{
+    font-family: var(--third-font);
+    color: white;
+    width: 15vw;
+}
+
+.title-container h1, .title-container h3{
+    margin: 0 50px;
+}
+
+.steps-container{
+    background-color: transparent;
+    width: max-content;
+    height: 150vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    column-gap: 26em;
+}
+
+.step-wrapper{
+    background-color: transparent;
+    height: 70vh;
+}
+
+.number{
+    font-family: var(--third-font);
+    font-size: 7em;
+    position: relative;
+    z-index: 2;
+    color: var(--light-blue);
+}
+
+.steps-upper__side{
+    display: flex;
+    align-items: end;
+    gap: 0 50px;
+}
+
+.number::before{
+    content:'';
+    background-color: var(--light-violet);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.steps-upper__side h3{
+    text-transform: uppercase;
+    font-family: var(--third-font);
+    width: 300px;
+    color: white;
+}
+
+.steps-lower__side{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4em;
+}
+
+.steps-lower__side li{
+    color: white;
+    border-bottom: 1px solid var(--light-violet);
+    width: max-content;
+}

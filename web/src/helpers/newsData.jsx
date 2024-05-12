@@ -55,6 +55,16 @@ const newsData = [{
         imgSrc:'',
         title: "Do Netflix, HBO, Spotify, Twitter, Hulu, Apple and Google agree with the designers' advice?",
         description:"The author discusses whether you should listen to and adhere to the advice and recommendations of other designers about what to design and how to design. In his article, he gives examples of how industry giants do things that contradict generally accepted standards.",
+    },
+    {
+        id: 6,
+        profileImg:ProfileImage,
+        name: "Agnieszka Malwa",
+        profession: "Designer",
+        date:"5.04.2024 / 12:21",
+        imgSrc:'',
+        title: "Do Netflix, HBO, Spotify, Twitter, Hulu, Apple and Google agree with the designers' advice?",
+        description:"The author discusses whether you should listen to and adhere to the advice and recommendations of other designers about what to design and how to design. In his article, he gives examples of how industry giants do things that contradict generally accepted standards.",
     }
 ]
 

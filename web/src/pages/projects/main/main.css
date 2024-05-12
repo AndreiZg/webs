@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-projects{
+    overflow: hidden;
+    position: relative;
+    height: 200vh;
+}
+
+.projects-title{
+    margin: 20px;
+    font-family: var(--third-font);
+}
+
+.projects-title h5{
+    color: gray;
+}
+
+.projects-title span{
+    color: var(--light-blue);
+    opacity: 1;
+}
+
+.main-container{
+    position: relative;
+    height: 170vh;
+    background-color: var(--second-color);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+.main-container .title{
+    height: 180px;
+}
+
+.main-container .title h6{
+    width: 35%;
+}
+
+.tab-navigation{
+    position: relative;
+    bottom: 50px;
+    color: white;
+}
+
+.projects-cards__container{
+    width: 100%;
+    height: 60%;
+    background-color: transparent;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    place-items: center;
+    margin-bottom: 80px;
+    gap: 5px;
+}
+
+.project-card{
+    background-color: var(--main-color);
+    width: 480px;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 20px;
+}
+
+.project-card__image{
+    width: 100%;
+    background-color: white;
+    height: 55%;
+    border-radius: 20px 20px 0 0;
+}
+
+.project-card > *{
+    font-family: var(--third-font);
+}
+
+.project-card__title{
+    color: var(--light-violet);
+}
+
+.project-card__creator{
+    color: dimgray;
+}
+
+.project-card__button{
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.project-card__button button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 3px solid var(--light-violet);
+    border-radius: 20px;
+    color: var(--light-violet);
+    font-weight: inherit;
+}
+
+.project-card__title, .project-card__creator{
+    margin: 5px 20px;
+}

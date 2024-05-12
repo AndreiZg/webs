@@ -11,7 +11,7 @@ const Footer = () =>{
     return(
         <div className='footer'>
             <div className="footer-title title">
-                <h1>Our contacts</h1>
+                <h1>Contact us 24/7</h1>
             </div>
             <div className="footer-container">
                 <div className="footer-details">
@@ -21,7 +21,7 @@ const Footer = () =>{
                     </div>
                     <div className="footer-item">
                         <p className='info'>Adress</p>
-                        <p className='second-info'>+555 555 555 55</p>
+                        <p className='second-info adress'>Czech Republic office: Úvoz 4, 602 00 Brno-Brno-střed</p>
                     </div>
                     <div className="footer-item">
                         <p className='info'>Email</p>
@@ -33,12 +33,12 @@ const Footer = () =>{
                     </div>
                     <div className="footer-item">
                         <div className="footer-button">
-                            <button>Кнопка</button>
+                            <button>Email us</button>
                         </div>
                     </div>
                     <div className="footer-item">
                         <p className='info'>Working hours on weekends</p>
-                        <p className='second-info'>11:00-14:00</p>
+                        <p className='second-info'>Coding 24/7/365</p>
                     </div>
                 </div>
                 <div className="footer-social__container">
