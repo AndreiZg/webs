@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color:#0E0E15;
+    --second-color: #1A1820;
+    --light-blue:#BEC3FF;
+    --light-violet:#8E94F2;
+    --gray-color:#CFCFCF;
+    --main-font: Inter, Arial, sans-serif;
+    --second-font:"Segoe UI", Arial, sans-serif;
+    --third-font:"Inter Tight", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work-images{
+    overflow: hidden;
+    position: relative;
+    height: 200vh;
+}
+
+.images-container{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    width: 90vw;
+    height: max-content;
+}
+
+.work-image{
+    background-color: red;
+    height: 100px;
+    margin: 5px;
+}
+
+.work-image:nth-child(1){
+    grid-column: 1 / 8;
+    height: 500px;
+}
+
+.work-image:nth-child(2){
+    background-color: yellow;
+    grid-row: 2 / 6;
+    grid-column: 1 / 5;
+    height: 800px;
+}
+
+.work-image:nth-child(3){
+    grid-row: 2 / 3;
+    grid-column: 5 / 8;
+    height: 500px;
+}
+
+.work-image:nth-child(4){
+    grid-row: 3 / 5;
+    grid-column: 5 / 8;
+    height: 290px;
+}
