@@ -17,6 +17,21 @@ const Projects = () =>{
                         <TopRight/>
                     </div>
                 </div>
+                <div className="element">
+                    <div className="project-title"></div>
+                    <div className="project-buttons">
+                        <button className='project-item'>Project 1</button>
+                        <TopRight/>
+                    </div>
+                </div>
+                <div className="element">
+                    <div className="project-title"></div>
+                    <div className="project-buttons">
+                        <button className='project-item'>Project 1</button>
+                        <TopRight/>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

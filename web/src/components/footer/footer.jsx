@@ -2,7 +2,7 @@ import './footer.css';
 
 const Footer = () =>{
 
-    const socialMedia = ['instagram', 'telegram', 'facebook', 'youtube'];
+    const socialMedia = ['viber','telegram','whatsapp'];
 
     const MediaItems = socialMedia.map((value, index) => (
         <button key={index}>{value}</button>
@@ -17,7 +17,7 @@ const Footer = () =>{
                 <div className="footer-details">
                     <div className="footer-item">
                         <p className='info'>Phone</p>
-                        <p className='second-info'>+555 555 555 55</p>
+                        <p className='second-info'>+420 775 329 625</p>
                     </div>
                     <div className="footer-item">
                         <p className='info'>Adress</p>
@@ -25,7 +25,7 @@ const Footer = () =>{
                     </div>
                     <div className="footer-item">
                         <p className='info'>Email</p>
-                        <p className='second-info'>Project@gmail.com</p>
+                        <p className='second-info'>kostcode1@gmail.com</p>
                     </div>
                     <div className="footer-item">
                         <p className='info'>Working hours on weekdays</p>
@@ -42,7 +42,6 @@ const Footer = () =>{
                     </div>
                 </div>
                 <div className="footer-social__container">
-                    <p className='info'>Our social networks</p>
                     <div className='media-btn'>
                         {MediaItems}
                     </div>

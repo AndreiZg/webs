@@ -38,16 +38,12 @@ body{
 
 .welcome{
     font-size: 3em;
-    color: var(--light-violet);
-    letter-spacing: -3px;
-    font-family: var(--main-font);
+    color: var(--light-blue);
+    font-family: var(--third-font);
     position: relative;
     font-weight: bold;
 }
 
-.main-title{
-    width: 800px;
-}
 
 .container p {
     color: white;
@@ -55,14 +51,24 @@ body{
 }
 
 .welcome-text{
-    color: var(--light-blue);
+    color: var(--light-violet);
     position: relative;
     right: 10px;
 }
 
 .bottom-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+.bottom-text h3{
     text-transform: uppercase;
     font-family: var(--second-font);
+    width: 75%;
+    text-align: center;
+    font-size: 1.3em;
 }
 
 .to-right{

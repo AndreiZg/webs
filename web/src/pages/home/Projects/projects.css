@@ -16,8 +16,10 @@
 }
 
 .projects{
+    margin-top: 100px;
+    background-color: var(--second-color);
     position: relative;
-    height: 100vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,8 +55,8 @@ h6 span{
 .grid-container{
     margin-top: 80px;
     display: grid;
-    grid-template-columns: 500px auto;
-    grid-auto-rows: minmax(450px, auto);
+    grid-template-columns: 400px auto;
+    grid-auto-rows: minmax(550px, auto);
     grid-gap: 20px;
     width: 80vw;
 }

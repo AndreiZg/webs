@@ -1,20 +1,23 @@
 import './welcome.css'
-import { ReactComponent as RightArrow } from '../../../assets/arrows/right.svg'
 
 const Welcome = () =>{
     return(
         <div className="home">
             <div className="container">
-                <p>We bring your ideas to life</p>
                 <h1 className='main-title'>
-                    <RightArrow/>
-                    <span className="welcome"><span className='welcome-text'>WELCOME TO </span>
-                        <span className='to-right'>IT WEB —STUDIO</span></span>
+                    <span className="welcome">Welcome to <span className='welcome-text'>KostCode</span></span>
                 </h1>
-                <h3 className='bottom-text'>is a Ukrainian studio <span>that develops websites and digital marketing</span></h3>
+                <div className="bottom-text">
+                    <h3>
+                        European IT company that offers<span> a
+                    range of innovative digital solutions tailored to the fintech industry's needs,
+                    including AI-driven services, cloud services,
+                    mobile applications, consultancy, and software development</span>
+                    </h3>
+                </div>
                 <div className="buttons">
-                    <button className='main-button'>Консультація</button>
-                    <button className='second-button'>Кнопка</button>
+                    <button className='main-button'>Services</button>
+                    <button className='second-button'>Contact us</button>
                 </div>
             </div>
         </div>

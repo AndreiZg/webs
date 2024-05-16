@@ -2,14 +2,14 @@ import './navbar.css'
 import { ReactComponent as ViberIcon } from '../../assets/icons/viber.svg'
 import { ReactComponent as WhatsApp } from '../../assets/icons/whatsapp.svg'
 import { ReactComponent as Telegram } from '../../assets/icons/telegram.svg'
-import { ReactComponent as Be } from '../../assets/icons/be.svg'
+import { ReactComponent as Logo } from '../../assets/images/logo.svg'
 
 const NavBar = () =>{
     return(
         <>
             <nav>
                 <div className="logo">
-                    <h1>logo</h1>
+                    <Logo/>
                 </div>
                 <ul>
                     <li>Main</li>
@@ -21,7 +21,6 @@ const NavBar = () =>{
                         <li><ViberIcon/></li>
                         <li><WhatsApp/></li>
                         <li><Telegram/></li>
-                        <li><Be/></li>
                     </ul>
                 </ul>
             </nav>

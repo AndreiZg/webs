@@ -37,15 +37,15 @@ const ProjectCardsData = () => {
         <>
             {ProjectCards.map(({ id,title,creator }) => (
                 <div key={id} className="project-card">
-                    <div className="project-card__image"></div>
-                    <div className="project-card__title">
-                        <p>{title}</p>
-                    </div>
-                    <div className="project-card__creator">
-                        <p>{creator}</p>
-                    </div>
-                    <div className="project-card__button">
-                        <button>More details</button>
+                    <div className="project-items">
+                        <p className="card-title">Services: </p>
+                        <h4 className="card-subtitle">UX/UI design</h4>
+                        <p className="card-title">Client: </p>
+                        <h4 className="card-subtitle">For retail chain, micro site for insurance company,
+                            cybersecurity audit for bank…</h4>
+                        <div className="project-card__btn">
+                            <button>View site</button>
+                        </div>
                     </div>
                 </div>
             ))}
