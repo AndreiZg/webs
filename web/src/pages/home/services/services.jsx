@@ -12,6 +12,9 @@ const Services = () => {
             <div className="container-cards">
                 <ServiceData/>
             </div>
+            <div className="services-btn">
+                <button>Contact Us</button>
+            </div>
         </div>
     )
 }

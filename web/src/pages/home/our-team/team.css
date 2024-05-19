@@ -38,6 +38,16 @@
     width: 94vw;
 }
 
+.our-team h6{
+    color: var(--light-blue);
+    width: 70%;
+    height: 5px;
+}
+
+.our-team span{
+    color:white;
+}
+
 .slider{
     display: flex;
     overflow: hidden;

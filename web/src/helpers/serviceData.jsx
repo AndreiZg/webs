@@ -20,6 +20,26 @@ const ServiceData = [{
         id: 4,
         title: "Created your own eco-system (website, app, chatbots)",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    },
+    {    id: 5,
+        title: "Develop your own AI specific bot",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    },
+    {
+        id: 6,
+        title: "Optimize your work processes",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    },
+    {
+        id: 7,
+        title: "Created your own eco-system (website, app, chatbots)",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    }
+    ,
+    {
+        id: 8,
+        title: "Created your own eco-system (website, app, chatbots)",
+        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
     }
 ];
 
@@ -34,7 +54,6 @@ const ServiceCards = () => {
                     <div className="description">
                         <p>{text}</p>
                     </div>
-                    <button className='card-btn'>Детальніше</button>
                 </div>
             ))}
         </>

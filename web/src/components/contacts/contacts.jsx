@@ -8,7 +8,7 @@ const Contacts = (props) =>{
             </div>
             <div className="contact-info__form">
                 <div className="contact-info__body">
-                    <p>We will help you understand and answer all your questions</p>
+                    <p>We are constantly searching for talented individuals to provide top-tier services for our clients. If you believe you are the right fit, don't hesitate to apply now!</p>
                 </div>
                 <div className="second-part">
                     <div className="input-form">

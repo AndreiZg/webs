@@ -17,7 +17,7 @@
 
 .services{
     position: relative;
-    height: 100vh;
+    height: 200vh;
     background-color: var(--second-color);
     overflow-x: hidden;
     display: flex;
@@ -56,7 +56,7 @@
     background-color: var(--light-blue);
 }
 
-.card:nth-child(2),.card:nth-child(3){
+.card:nth-child(2),.card:nth-child(3),.card:nth-child(6),.card:nth-child(7){
     background-color: var(--light-violet);
 }
 
@@ -83,14 +83,16 @@
     margin-top: 80px;
 }
 
-.card-btn {
+.services-btn{
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: black;
-    border: 2px solid black;
-    border-radius: 20px;
-    cursor: pointer;
+    bottom: 30px;
+}
+
+.services-btn button{
+    width: 250px;
+    height: 50px;
+    border-radius: 40px;
+    border: 3px solid black;
+    background-color: var(--light-blue);
+    text-transform: uppercase;
 }

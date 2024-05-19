@@ -1,4 +1,5 @@
 import './footer.css';
+import { ReactComponent as FooterLogo } from '../../assets/images/footer-logo.svg';
 
 const Footer = () =>{
 
@@ -48,7 +49,7 @@ const Footer = () =>{
                 </div>
                 <div className="division-line"></div>
                 <div className="rights-container">
-                    <p>LOGO</p>
+                    <FooterLogo/>
                     <p>Privacy Policy</p>
                     <p>Privacy Policy</p>
                     <p>© All rights reserved</p>
